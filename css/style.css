@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+
+
+* { box-sizing: border-box; margin: 0; padding: 0;}
+
+body { 
+    background-color: #f1eae2;
+    font-family: 'Inter', sans-serif;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1296px;
+    margin: auto;
+}
+
+
+.navbar {
+    background-color: #f1eae2;
+    box-shadow: none;
+}
+
+.navbar-nav {
+    padding-left: 25px;
+}
+
+.navbar a {
+    
+    color: #6c6c6c ;
+    font-size: 14px;
+}
+
+#btn {
+    background-color: #123316;
+    color: #ffffff;
+    padding: 15px 33px;
+    border-radius: 8px;
+}
+
+.header-section {
+    width: 100%;
+    max-width: 1296px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-items: center;
+    padding-top: 125px;
+}
+    
+.desc h1 {
+    font-size: 55px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.desc p {
+    width: 100%;
+    max-width: 570px;
+    font-size: 14px;
+}
+
+.rating {
+    padding-top: 25px;
+}
+
+.rating,
+.rating-social {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.btn {
+    background-color: #123316;
+    padding: 15px 35px;
+    font-weight: 700;
+}
+
+.footer {
+    padding-top: 125px;
+    margin: auto;
+    text-align: center;
+}
+    
+.social {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 1200px) {
+    
+    .hero-section {
+        display: none;
+    }
+
+    .desc, .footer {
+        
+        width: 100%;
+        max-width: 576px;
+        margin: auto;
+    }
+
+    .desc h1 {
+        font-size: 53px;
+    }
+
+    .social {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+        
+}
+
+@media screen and (max-width: 576px) {
+    
+    .hero-section {
+        display: none;
+    }
+
+    .desc, .footer {
+        
+        width: 100%;
+        max-width: 550px;
+        margin: auto;
+    }
+
+    .desc h1 {
+        font-size: 50px;
+    }
+
+    .social {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+        
+}
+
+
+
+
