@@ -28,8 +28,7 @@ body {
 }
 
 .navbar a {
-    
-    color: #6c6c6c ;
+    color: #6c6c6c;
     font-size: 14px;
 }
 
@@ -93,6 +92,48 @@ body {
     gap: 50px;
 }
 
+
+.popover {
+    
+    width: 100%;
+    max-width: 340px;
+    margin-left: 620px;
+    margin-top: 70px;
+   
+    
+}
+
+.modal-content {
+    padding-top: 25px;
+    padding-bottom: 25px;
+   
+    
+}
+
+.spense,
+.fiber,
+.gradie{
+    display: flex;
+    flex-direction: row;
+    padding-left: 25px;
+}
+
+.modal-desc {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.fiber,
+.gradie {
+    padding-top: 15px;
+}
+
+.modal-desc span {
+    font-size: 12px;
+    font-weight: 700;
+    color: #6c6c6c ;
+}
 
 /* MEDIA QUERY */
 
