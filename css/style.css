@@ -93,21 +93,15 @@ body {
 }
 
 
-.popover {
-    
-    width: 100%;
-    max-width: 340px;
-    margin-left: 620px;
-    margin-top: 70px;
-   
-    
-}
+
 
 .modal-content {
     padding-top: 25px;
     padding-bottom: 25px;
-   
-    
+}
+
+.modal-content button {
+    padding-right: 100px;
 }
 
 .spense,
