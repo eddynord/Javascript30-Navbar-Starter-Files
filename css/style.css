@@ -130,6 +130,11 @@ body {
     color: #6c6c6c ;
 }
 
+.modal-nav {
+    display: none;
+    
+}
+
 /* MEDIA QUERY */
 
 @media screen and (max-width: 1200px) {
